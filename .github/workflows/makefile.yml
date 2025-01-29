@@ -1,4 +1,4 @@
-name: CI
+′name: CI
 
 on:
   workflow_dispatch:
@@ -13,7 +13,7 @@ jobs:
         with:
           kernel-url: https://github.com/wosnxn123/android_kernel_xiaomi_southwest-4.19
           kernel-branch: main
-          config: clover_defconfig
+          config: vendor/kona-perf_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
